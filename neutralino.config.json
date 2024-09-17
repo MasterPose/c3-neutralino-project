@@ -1,0 +1,57 @@
+{
+  "applicationId": "js.neutralino.sample",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "port": 0,
+  "documentRoot": "/resources/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "tokenSecurity": "one-time",
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "nativeAllowList": [
+    "app.*",
+    "clipboard.*",
+    "computer.*",
+    "debug.*",
+    "events.*",
+    "filesystem.*",
+    "os.*",
+    "storage.*",
+    "window.*"
+  ],
+  "globalVariables": {},
+  "modes": {
+    "window": {
+      "title": "c3-neutralino-project",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "center": true,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/resources/game/icons/icon-512.png",
+      "enableInspector": true,
+      "borderless": false,
+      "maximize": false,
+      "hidden": false,
+      "resizable": true,
+      "exitProcessOnClose": true
+    },
+    "browser": {},
+    "cloud": {},
+    "chrome": {}
+  },
+  "cli": {
+    "binaryName": "c3-neutralino-project",
+    "resourcesPath": "/resources/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/resources/js/neutralino.js",
+    "binaryVersion": "5.3.0",
+    "clientVersion": "5.3.0"
+  }
+}
